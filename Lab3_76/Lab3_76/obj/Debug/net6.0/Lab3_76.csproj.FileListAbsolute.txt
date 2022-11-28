@@ -1,0 +1,15 @@
+C:\Users\plast\Desktop\Lab3_76\Lab3_76\bin\Debug\net6.0\Lab3_76.exe
+C:\Users\plast\Desktop\Lab3_76\Lab3_76\bin\Debug\net6.0\Lab3_76.deps.json
+C:\Users\plast\Desktop\Lab3_76\Lab3_76\bin\Debug\net6.0\Lab3_76.runtimeconfig.json
+C:\Users\plast\Desktop\Lab3_76\Lab3_76\bin\Debug\net6.0\Lab3_76.dll
+C:\Users\plast\Desktop\Lab3_76\Lab3_76\bin\Debug\net6.0\Lab3_76.pdb
+C:\Users\plast\Desktop\Lab3_76\Lab3_76\obj\Debug\net6.0\Lab3_76.csproj.AssemblyReference.cache
+C:\Users\plast\Desktop\Lab3_76\Lab3_76\obj\Debug\net6.0\Lab3_76.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\plast\Desktop\Lab3_76\Lab3_76\obj\Debug\net6.0\Lab3_76.AssemblyInfoInputs.cache
+C:\Users\plast\Desktop\Lab3_76\Lab3_76\obj\Debug\net6.0\Lab3_76.AssemblyInfo.cs
+C:\Users\plast\Desktop\Lab3_76\Lab3_76\obj\Debug\net6.0\Lab3_76.csproj.CoreCompileInputs.cache
+C:\Users\plast\Desktop\Lab3_76\Lab3_76\obj\Debug\net6.0\Lab3_76.dll
+C:\Users\plast\Desktop\Lab3_76\Lab3_76\obj\Debug\net6.0\refint\Lab3_76.dll
+C:\Users\plast\Desktop\Lab3_76\Lab3_76\obj\Debug\net6.0\Lab3_76.pdb
+C:\Users\plast\Desktop\Lab3_76\Lab3_76\obj\Debug\net6.0\Lab3_76.genruntimeconfig.cache
+C:\Users\plast\Desktop\Lab3_76\Lab3_76\obj\Debug\net6.0\ref\Lab3_76.dll
