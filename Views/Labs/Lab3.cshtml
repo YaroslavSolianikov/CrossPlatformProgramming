@@ -1,0 +1,47 @@
+﻿@model Lab3DataModel
+
+@{
+	ViewData["Title"] = "Task 3";
+}
+
+<h1>@ViewData["Title"]</h1>
+<text> &nbsp; &nbsp; &nbsp;</text>
+<h2>Print a single number - the number of parts into which the plane is divided</h2>
+
+<text> &nbsp; &nbsp; &nbsp;</text>
+
+<form method="post" enctype="multipart/form-data" asp-controller="Labs" asp-action="Lab3">
+	<div class="form-group">
+		<label for="psize">First line</label>
+		<input type="text" class="form-control" id="firstLine" asp-for="FirstLine">
+	</div>
+	<div class="form-group">
+		<label for="pdata">Second line</label>
+		<input type="text" class="form-control" id="secondLine" asp-for="SecondLine">
+	</div>
+	<div class="form-group">
+		<label for="pdata">Third line</label>
+		<input type="text" class="form-control" id="thirdLine" asp-for="ThirdLine">
+	</div>
+	<button type="submit" class="btn btn-primary mt-3">Submit</button>
+</form>
+
+<text> &nbsp; &nbsp; &nbsp;</text>
+<text> &nbsp; &nbsp; &nbsp;</text>
+
+@if (Model != null)
+{
+	<div class="container mt5">
+		<div class="form-group">
+			<h2>Result</h2>
+			<h2 class="control-label">Calculated: @(Model != null ? Model.Calculated : string.Empty)</h2>
+		</div>
+		@if (Model != null && !string.IsNullOrEmpty(Model.ErrorValue))
+		{
+			<div class="row">
+				<label for="perror"></label>
+				<input type="text" id="perror" value="@Model.ErrorValue">
+			</div>
+		}
+	</div>
+}

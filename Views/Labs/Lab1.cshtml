@@ -1,0 +1,43 @@
+﻿@model Lab1DataModel
+
+@{
+	ViewData["Title"] = "Task 1";
+}
+
+<h1>@ViewData["Title"]</h1>
+<text> &nbsp; &nbsp; &nbsp;</text>
+<h2>YES, if Petya manages to assemble a circuit whose capacitance differs by no more than 0.01 from the required value of C. Otherwise, print NO</h2>
+
+<text> &nbsp; &nbsp; &nbsp;</text>
+
+<form method="post" enctype="multipart/form-data" asp-controller="Labs" asp-action="Lab1">
+	<div class="form-group">
+		<label for="psize">First input</label>
+		<input type="text" class="form-control" id="firstInput" asp-for="FirstInputLine">
+	</div>
+	<div class="form-group">
+		<label for="pdata">Second input</label>
+		<input type="text" class="form-control" id="secondInput" asp-for="SecondInputLine">
+	</div>
+	<button type="submit" class="btn btn-primary mt-3">Submit</button>
+</form>
+
+<text> &nbsp; &nbsp; &nbsp;</text>
+<text> &nbsp; &nbsp; &nbsp;</text>
+
+@if (Model != null)
+{
+	<div class="container mt5">
+		<div class="form-group">
+			<h2>Result</h2>
+			<h2 class="control-label">Calculated: @(Model != null ? Model.Calculated : string.Empty)</h2>
+		</div>
+		@if (Model != null && !string.IsNullOrEmpty(Model.ErrorValue))
+		{
+			<div class="row">
+				<label for="perror"></label>
+				<input type="text" id="perror" value="@Model.ErrorValue">
+			</div>
+		}
+	</div>
+}

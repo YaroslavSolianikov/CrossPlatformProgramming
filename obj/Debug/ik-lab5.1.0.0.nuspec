@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ik-lab5</id>
+    <version>1.0.0</version>
+    <title>lab5</title>
+    <authors>yarlab5</authors>
+    <description>Package Description</description>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <frameworkReferences>
+      <group targetFramework="net6.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0/appsettings.Development.json" buildAction="Content" />
+      <files include="any/net6.0/appsettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\obj\Debug\net6.0\staticwebassets\msbuild.ik-lab5.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\obj\Debug\net6.0\staticwebassets\msbuild.build.ik-lab5.props" target="build\ik-lab5.props" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ik-lab5.props" target="buildMultiTargeting\ik-lab5.props" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ik-lab5.props" target="buildTransitive\ik-lab5.props" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\css\site.css" target="staticwebassets\css\site.css" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\favicon.ico" target="staticwebassets\favicon.ico" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\js\site.js" target="staticwebassets\js\site.js" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\css\bootstrap.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.css" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\js\bootstrap.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.js" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\bootstrap\LICENSE" target="staticwebassets\lib\bootstrap\LICENSE" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\jquery\dist\jquery.js" target="staticwebassets\lib\jquery\dist\jquery.js" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\jquery\dist\jquery.min.js" target="staticwebassets\lib\jquery\dist\jquery.min.js" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\jquery\dist\jquery.min.map" target="staticwebassets\lib\jquery\dist\jquery.min.map" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\jquery\LICENSE.txt" target="staticwebassets\lib\jquery\LICENSE.txt" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\jquery-validation\dist\additional-methods.js" target="staticwebassets\lib\jquery-validation\dist\additional-methods.js" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" target="staticwebassets\lib\jquery-validation\dist\additional-methods.min.js" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\jquery-validation\dist\jquery.validate.js" target="staticwebassets\lib\jquery-validation\dist\jquery.validate.js" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" target="staticwebassets\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\jquery-validation\LICENSE.md" target="staticwebassets\lib\jquery-validation\LICENSE.md" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" target="staticwebassets\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" target="staticwebassets\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" target="staticwebassets\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\obj\DotnetToolSettings.xml" target="tools\net6.0\any\DotnetToolSettings.xml" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\appsettings.Development.json" target="tools\net6.0\any\appsettings.Development.json" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\appsettings.json" target="tools\net6.0\any\appsettings.json" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\yarlab5.dll" target="tools\net6.0\any\yarlab5.dll" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\yarlab5.deps.json" target="tools\net6.0\any\yarlab5.deps.json" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\yarlab5.runtimeconfig.json" target="tools\net6.0\any\yarlab5.runtimeconfig.json" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\yarlab5.pdb" target="tools\net6.0\any\yarlab5.pdb" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\Microsoft.AspNetCore.Authentication.JwtBearer.dll" target="tools\net6.0\any\Microsoft.AspNetCore.Authentication.JwtBearer.dll" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll" target="tools\net6.0\any\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\Microsoft.IdentityModel.JsonWebTokens.dll" target="tools\net6.0\any\Microsoft.IdentityModel.JsonWebTokens.dll" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\Microsoft.IdentityModel.Logging.dll" target="tools\net6.0\any\Microsoft.IdentityModel.Logging.dll" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\Microsoft.IdentityModel.Protocols.dll" target="tools\net6.0\any\Microsoft.IdentityModel.Protocols.dll" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" target="tools\net6.0\any\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\Microsoft.IdentityModel.Tokens.dll" target="tools\net6.0\any\Microsoft.IdentityModel.Tokens.dll" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\Newtonsoft.Json.dll" target="tools\net6.0\any\Newtonsoft.Json.dll" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\Okta.AspNet.Abstractions.dll" target="tools\net6.0\any\Okta.AspNet.Abstractions.dll" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\Okta.AspNetCore.dll" target="tools\net6.0\any\Okta.AspNetCore.dll" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\System.IdentityModel.Tokens.Jwt.dll" target="tools\net6.0\any\System.IdentityModel.Tokens.Jwt.dll" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\LabsLibrary.dll" target="tools\net6.0\any\LabsLibrary.dll" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\bin\Debug\net6.0\publish\LabsLibrary.pdb" target="tools\net6.0\any\LabsLibrary.pdb" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\appsettings.Development.json" target="content\appsettings.Development.json" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\appsettings.Development.json" target="contentFiles\any\net6.0\appsettings.Development.json" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\appsettings.json" target="content\appsettings.json" />
+    <file src="D:\University\4course\CrossPlatform\yarlab5\yarlab5\appsettings.json" target="contentFiles\any\net6.0\appsettings.json" />
+  </files>
+</package>
